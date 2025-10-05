@@ -1,9 +1,9 @@
-ID,Age,Quantity,Ticket type,Payment,E/O,A/O,Status
-1,15,1,VIP,Online,28,28,Pass
-2,16,2,VIP,Offline,15,15,Pass
-3,17,3,Standard,Offline,8,8,Pass
-4,18,4,Standard,Online,18,18,Pass
-5,23,5,VIP,Online,20,20,Pass
-6,24,6,VIP,Offline,0,0,Pass
-7,119,7,Standard,Offline,0,0,Pass
-8,120,8,Standard,Online,10,10,Pass
+ID,Age,Quantity,Ticket type,Payment,E/O
+1,15,1,VIP,Online,28
+2,16,2,VIP,Offline,15
+3,17,3,Standard,Offline,8
+4,18,4,Standard,Online,18
+5,23,5,VIP,Online,20
+6,24,6,VIP,Offline,0
+7,119,7,Standard,Offline,0
+8,120,8,Standard,Online,10
