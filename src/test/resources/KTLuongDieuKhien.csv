@@ -1,0 +1,9 @@
+ID,Age,Quantity,Ticket type,Payment,E/O
+1,15,5,VIP,Online,28
+2,25,1,VIP,Online,20
+3,14,2,Standard,Online,18
+4,120,9,Standard,Online,10
+5,13,10,VIP,Offline,15
+6,40,5,VIP,Offline,0
+7,18,1,Standard,Offline,8
+8,88,2,Standard,Offline,0
