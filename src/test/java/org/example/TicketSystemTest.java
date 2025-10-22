@@ -33,4 +33,13 @@ class TicketSystemTest {
         double result = ts.calculateDiscount(age, quantity, ticketType, payment);
         assertEquals(expected, result);
     }
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/KTDongdulieu.csv", numLinesToSkip = 1)
+    void testCalculate_Data_Flow(int id,int age, int quantity, String ticketType, String payment,
+                                    int expected) {
+        TicketSystem ts = new TicketSystem();
+        double result = ts.calculateDiscount(age, quantity, ticketType, payment);
+        assertEquals(expected, result);
+    }
 }
